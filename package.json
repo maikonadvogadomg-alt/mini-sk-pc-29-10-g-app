@@ -17,14 +17,36 @@
     "electron-builder": "25.1.8"
   },
   "build": {
-    "appId": "com.maikon.minisk.pc",
-    "productName": "Mini SK",
-    "executableName": "Mini-SK",
-    "directories": { "output": "release" },
-    "files": ["app/**/*", "electron/**/*", "package.json"],
+    "appId": "com.maikon.minisk.pc.nteste10292007",
+    "productName": "Mini SK (teste 10292007)",
+    "executableName": "Mini-SK-nteste10292007",
+    "directories": {
+      "output": "release"
+    },
+    "files": [
+      "app/**/*",
+      "electron/**/*",
+      "package.json"
+    ],
     "asar": false,
-    "win": { "target": ["nsis", "portable"], "icon": "app/icons/icon-512.png" },
-    "nsis": { "oneClick": true, "perMachine": false, "createDesktopShortcut": true, "createStartMenuShortcut": true, "shortcutName": "Mini SK", "artifactName": "Mini-SK-Instalar.exe" },
-    "portable": { "artifactName": "Mini-SK-sem-instalar.exe" }
-  }
+    "win": {
+      "target": [
+        "nsis",
+        "portable"
+      ],
+      "icon": "app/icons/icon-512.png"
+    },
+    "nsis": {
+      "oneClick": true,
+      "perMachine": false,
+      "createDesktopShortcut": true,
+      "createStartMenuShortcut": true,
+      "shortcutName": "Mini SK (teste 10292007)",
+      "artifactName": "Mini-SK-nteste10292007-Instalar.exe"
+    },
+    "portable": {
+      "artifactName": "Mini-SK-nteste10292007-sem-instalar.exe"
+    }
+  },
+  "portaDoPrograma": 10098
 }
